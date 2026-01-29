@@ -1,0 +1,11 @@
+.App{
+    background-color: aliceblue;
+    height: 100vh;
+    margin: 0 ;
+    padding: 20px;
+}
+.header{
+    padding :auto ;
+    text-align: center;
+    color: green;
+}

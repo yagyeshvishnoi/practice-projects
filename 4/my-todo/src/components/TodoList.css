@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    color: green;
+    margin-top: 30px;
+}
+.pending{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid green 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.fullfilled{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid green 5px;
+    padding: 20px;
+    border-radius: 20px;
+}

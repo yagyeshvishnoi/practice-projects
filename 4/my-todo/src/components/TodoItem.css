@@ -1,0 +1,17 @@
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.item p{
+    width: 100%;
+    text-align: center;
+}
+.item button{
+    background-color: aquamarine;
+    border: none;
+    color: blue;
+    border-radius: 10%;
+}

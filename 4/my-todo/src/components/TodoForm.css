@@ -1,0 +1,47 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 160px;               
+  
+  transition: width 0.6s ease, border 0.3s ease , transform 0.3s ease;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.formItem input {
+  background-color: transparent;
+  border: none;
+  margin: 5px 10px;
+  width: 100%;
+  outline: none;
+}
+
+.formItem button {
+  opacity: 0.2;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.formItem:focus-within {
+  width: 400px;
+  border: 2px solid green;
+}
+
+.formItem:focus-within button {
+  opacity: 1;
+}
+.formItem button:hover{
+    background-color: green;
+    color:white;
+}
+.formItem button:active{
+    transform: scale(1.1);
+}
