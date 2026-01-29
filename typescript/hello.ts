@@ -1,0 +1,1 @@
+let range = Array.from({ length: 5 }, (_, i) => i);
