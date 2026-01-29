@@ -1,0 +1,31 @@
+*{
+    background-color: white;
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.loader{
+    width: 500px;
+    height: 40px;
+
+    background-size: cover;
+
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.progress{
+    width: 1px;
+    height: 40px;
+    background-size: cover;
+    background-color: green;
+    border-radius: 20px;
+    transition:0.4s linear;
+}
+@keyframes loader {
+    0%{width: 0;}
+    100%{width: 100%;}
+}

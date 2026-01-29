@@ -1,0 +1,31 @@
+*{
+    background-color: white;
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    
+    background: linear-gradient(0deg, #FFFFFF 50%, #FF5C35 100%);
+    border-radius: 50%;
+    animation: shrinker 1s linear infinite ;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blank{
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+@keyframes shrinker {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
